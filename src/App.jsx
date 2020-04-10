@@ -3,9 +3,11 @@ import { Button, message } from 'antd';
 import './App.css';
 
 class App extends Component {
+
   handleClick = () => {
-    message.success('成功')
+    message.success('成功');
   }
+
   render () {
     return (
       <div className="App">
